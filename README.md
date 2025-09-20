@@ -2,14 +2,10 @@
 
 Este projeto demonstra como usar a biblioteca **Agno** com o modelo **Gemini** do Google para criar agentes de IA conversacionais.
 
-## ✅ Status
-
-**FUNCIONANDO PERFEITAMENTE!** A comunicação entre Agno e Gemini está operacional.
-
 ## 📋 Pré-requisitos
 
 1. **Python 3.7+** instalado
-2. **API Key do Gemini** (obtenha em: https://makersuite.google.com/app/apikey)
+2. **API Key do Gemini** (obtenha em: https://aistudio.google.com/app/apikey)
 
 ## 🚀 Instalação e Configuração
 
@@ -144,23 +140,6 @@ response = agent.run("Sua mensagem aqui")
 print(response.content)  # Conteúdo da resposta
 ```
 
-## 📊 Resultados dos testes
-
-- ✅ **Import da Agno**: Funcionando
-- ✅ **Criação de agente**: Funcionando  
-- ✅ **Comunicação com Gemini**: Funcionando
-- ✅ **Processamento de mensagens**: Funcionando
-- ✅ **Respostas estruturadas**: Funcionando
-
-## 🎯 Próximos passos
-
-Agora que a comunicação está funcionando, você pode:
-
-1. **Expandir funcionalidades**: Adicionar ferramentas e funções ao agente
-2. **Implementar memória**: Usar recursos de memória da Agno
-3. **Criar workflows**: Desenvolver fluxos de trabalho complexos
-4. **Integrar APIs**: Conectar com outros serviços
-
 ## 🐛 Solução de problemas
 
 ### Erro: "GEMINI_API_KEY not found"
@@ -186,18 +165,9 @@ Agora que a comunicação está funcionando, você pode:
 - Configure no arquivo `.env`: `GEMINI_MODEL=gemini-2.5-flash-lite`
 - Verifique se o arquivo `.env` está no diretório correto
 
-## 🔄 Controle de Versão
-
-Este projeto usa Git para controle de versão. O arquivo `.gitignore` está configurado para ignorar:
-- Ambiente virtual (`.venv/`)
-- Arquivos Python compilados (`__pycache__/`)
-- Variáveis de ambiente (`.env`)
-- Arquivos temporários
-
-**Importante:** O arquivo `.env` contém suas chaves de API e não deve ser commitado. Use o arquivo `config.env` como exemplo.
-
 ## 📚 Documentação
 
 - [Agno Documentation](https://docs.agno.com)
-- [Google AI Studio](https://makersuite.google.com)
+- [Google AI Studio](https://aistudio.google.com)
 - [Gemini API Reference](https://ai.google.dev/docs)
+
